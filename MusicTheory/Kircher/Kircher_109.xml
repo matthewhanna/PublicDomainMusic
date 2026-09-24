@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pinax number="2">
+  <stropha number="1">
+    <motive>
+      <voice name="soprano">
+	<note pitch="2" duration="1." />
+	<note pitch="4" duration="2" />
+	<note pitch="3" duration="2" />
+	<note pitch="2" duration="2" />
+	<note pitch="1" duration="4" />
+	<note pitch="5" duration="4" />
+	<note pitch="1" duration="1" />
+	<note pitch="7" duration="4" />
+	<note pitch="6" duration="4" />
+	<note pitch="7" duration="1" />
+      </voice>
+      <voice name="alto">
+	<note pitch="7" duration="1." />
+	<note pitch="6" duration="2" />
+	<note pitch="5" duration="2" />
+	<note pitch="4" duration="2" />
+	<note pitch="3" duration="1." />
+	<note pitch="2" duration="4" />
+	<note pitch="8" duration="4" />
+	<note pitch="2" duration="1" />
+      </voice>
+      <voice name="tenor">
+	<note pitch="2" duration="1." />
+	<note pitch="2" duration="2" />
+	<note pitch="7" duration="2" />
+	<note pitch="7" duration="2" />
+	<note pitch="5" duration="\breve" />
+	<note pitch="5" duration="1" />
+      </voice>
+      <voice name="bass">
+	<note pitch="5" duration="1." />
+	<note pitch="2" duration="2" />
+	<note pitch="3" duration="2" />
+	<note pitch="7" duration="2" />
+	<note pitch="1" duration="1" />
+	<note pitch="5" duration="\breve" />
+      </voice>
+    </motive>
+  </stropha>
+  <stropha number="2">
+    <motive>
+      <voice name="soprano">
+	<note pitch="3" duration="1." />
+	<note pitch="2" duration="2" />
+	<note pitch="1" duration="2" />
+	<note pitch="7" duration="2" />
+	<note pitch="6" duration="1" />
+	<note pitch="5" duration="1" />
+	<note pitch="5" duration="1" />
+      </voice>
+      <voice name="alto">
+	<note pitch="1" duration="1." />
+	<note pitch="7" duration="2" />
+	<note pitch="6" duration="2" />
+	<note pitch="5" duration="2" />
+	<note pitch="4" duration="4" />
+	<note pitch="1" duration="4" />
+	<note pitch="4" duration="1" />
+	<note pitch="3" duration="4" />
+	<note pitch="2" duration="4" />
+	<note pitch="3" duration="1" />
+      </voice>
+      <voice name="tenor">
+	<note pitch="5" duration="1." />
+	<note pitch="5" duration="2" />
+	<note pitch="3" duration="2" />
+	<note pitch="3" duration="2" />
+	<note pitch="8" duration="1" />
+	<note pitch="8" duration="\breve" />
+      </voice>
+      <voice name="bass">
+	<note pitch="1" duration="1." />
+	<note pitch="5" duration="2" />
+	<note pitch="6" duration="2" />
+	<note pitch="3" duration="2" />
+	<note pitch="4" duration="1" />
+	<note pitch="1" duration="\breve" />
+      </voice>
+    </motive>
+  </stropha>
+</pinax>
