@@ -14,6 +14,10 @@ Public-domain sheet music, written in LilyPond, organized by ensemble.
     - `FromAllThatDwell/` — words: Isaac Watts, 1719; music: Geistliche Kirchengesänge, Cologne, 1623
     - `LordDismissUs/` — words: John Fawcett, 1773; music: John Hughes, 1907 (d. 1932)
   - `octavizer/` — utility LilyPond script
+- `Brahms/` — Oboe/Horn/Bassoon trio arrangement (d. 1897)
+- `Guilmant/` — Alexandre Guilmant, Trombone and Piano (d. 1911)
+- `HepTet/`
+  - `Arbans/` — exercises from J.J.B. Arban's method (d. 1889)
 - `MusicTheory/`
   - `Kircher/` — Athanasius Kircher's *Arca Musarithmica* (d. 1680), with Python tooling to generate music from his combinatorial system
 - `Orchestral/`
