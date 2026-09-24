@@ -1,4 +1,3 @@
-\version "2.11.63"
 \include "../Globals.ly"
 
 RBTTuba = \relative c, {

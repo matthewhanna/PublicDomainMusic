@@ -1,25 +1,25 @@
-GLOBALS = ../Globals.ly Vespers-Globals.ly
+GLOBALS = ../Globals.ly Magnificat-Globals.ly
 PARTGLOBALS = $(GLOBALS) ../PartGlobals.ly
 
-all: Vespers-Score.pdf Vespers-TptPart.pdf Vespers-HornPart.pdf Vespers-TbnPart.pdf Vespers-TubaPart.pdf Vespers-OrganPart.pdf
+all: Magnificat-Score.pdf Magnificat-TptPart.pdf Magnificat-HornPart.pdf Magnificat-TbnPart.pdf Magnificat-TubaPart.pdf Magnificat-OrganPart.pdf
 
 clean:
 	rm -rf *~ *.ps *.pdf
 
-Vespers-Score.pdf: Vespers-Score.ly Vespers-Tpt1.ly Vespers-Tpt2.ly Vespers-Horn.ly Vespers-Tbn.ly Vespers-Tuba.ly Vespers-Organ.ly $(GLOBALS)
-	lilypond Vespers-Score.ly
+Magnificat-Score.pdf: Magnificat-Score.ly Magnificat-Tpt1.ly Magnificat-Tpt2.ly Magnificat-Horn.ly Magnificat-Tbn.ly Magnificat-Tuba.ly Magnificat-Organ.ly $(GLOBALS)
+	lilypond Magnificat-Score.ly
 
-Vespers-TptPart.pdf: Vespers-TptPart.ly Vespers-Tpt1.ly Vespers-Tpt2.ly $(PARTGLOBALS)
-	lilypond Vespers-TptPart.ly
+Magnificat-TptPart.pdf: Magnificat-TptPart.ly Magnificat-Tpt1.ly Magnificat-Tpt2.ly $(PARTGLOBALS)
+	lilypond Magnificat-TptPart.ly
 
-Vespers-HornPart.pdf: Vespers-HornPart.ly Vespers-Horn.ly $(PARTGLOBALS)
-	lilypond Vespers-HornPart.ly
+Magnificat-HornPart.pdf: Magnificat-HornPart.ly Magnificat-Horn.ly $(PARTGLOBALS)
+	lilypond Magnificat-HornPart.ly
 
-Vespers-TbnPart.pdf: Vespers-TbnPart.ly Vespers-Tbn.ly $(PARTGLOBALS)
-	lilypond Vespers-TbnPart.ly
+Magnificat-TbnPart.pdf: Magnificat-TbnPart.ly Magnificat-Tbn.ly $(PARTGLOBALS)
+	lilypond Magnificat-TbnPart.ly
 
-Vespers-TubaPart.pdf: Vespers-TubaPart.ly Vespers-Tuba.ly $(PARTGLOBALS)
-	lilypond Vespers-TubaPart.ly
+Magnificat-TubaPart.pdf: Magnificat-TubaPart.ly Magnificat-Tuba.ly $(PARTGLOBALS)
+	lilypond Magnificat-TubaPart.ly
 
-Vespers-OrganPart.pdf: Vespers-OrganPart.ly Vespers-Organ.ly $(PARTGLOBALS)
-	lilypond Vespers-OrganPart.ly
+Magnificat-OrganPart.pdf: Magnificat-OrganPart.ly Magnificat-Organ.ly $(PARTGLOBALS)
+	lilypond Magnificat-OrganPart.ly

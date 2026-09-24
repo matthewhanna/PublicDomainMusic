@@ -1,4 +1,3 @@
-\version "2.11.63"
 RPATuba = \relative c {
   \clef bass
   \key c \minor
@@ -6,7 +5,7 @@ RPATuba = \relative c {
   \moderato
   \tempo 4. = 63
   \set Staff.timeSignatureFraction= #'(4 . 4)
-  \scaleDurations #'(3 . 2) {
+  \compressMusic #'(3 . 2) {
     r4 ees8--\mf c-- f4( d)
     r4 f->( d) c8-- ees--
     r4 ees8--\< g--\! c4-^( d,)

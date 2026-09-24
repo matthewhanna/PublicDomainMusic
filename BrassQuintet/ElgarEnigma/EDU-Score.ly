@@ -1,4 +1,3 @@
-\version "2.11.63"
 \include "Enigma-Globals.ly"
 \include "EDU/EDU-Staves.ly"
 

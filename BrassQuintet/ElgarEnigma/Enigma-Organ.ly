@@ -1,11 +1,10 @@
-\version "2.11.63"
 \include "../Globals.ly"
 \include "../PartGlobals.ly"
 \include "Enigma-Globals.ly"
 
 \header {
   title = "Enigma Variations"
-  composer = \markup \center-column { "Elgar" }
+  composer = \markup \center-align { "Elgar" }
   instrument = "Organ"
 }
 

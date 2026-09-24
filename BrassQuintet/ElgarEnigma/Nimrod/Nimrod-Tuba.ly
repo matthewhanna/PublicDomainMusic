@@ -1,4 +1,3 @@
-\version "2.11.63"
 NimrodTuba = \relative c {
   \clef bass
   \key ees \major

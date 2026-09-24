@@ -1,4 +1,3 @@
-\version "2.11.63"
 EDUTptTwo = \relative c' {
   \clef treble
   \key g \major

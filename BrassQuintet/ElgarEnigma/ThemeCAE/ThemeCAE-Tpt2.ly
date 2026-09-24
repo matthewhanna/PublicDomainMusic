@@ -1,4 +1,3 @@
-\version "2.11.63"
 ThemeCAETptTwo = \relative c'' {
   \clef treble
   \key g \minor

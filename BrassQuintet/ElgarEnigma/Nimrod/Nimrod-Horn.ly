@@ -1,4 +1,3 @@
-\version "2.11.63"
 NimrodHorn = \relative c'' {
   \clef treble
   \key bes \major

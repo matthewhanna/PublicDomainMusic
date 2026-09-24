@@ -1,4 +1,4 @@
-\version "2.11.63"
+\version "2.10.25"
 
 \paper {
   #(define dump-extents #t)
@@ -70,5 +70,6 @@ rit = \markup { \bold "rit." }
   \context {
     \GrandStaff
     \accepts Dynamics
+    \override VerticalAlignment #'forced-distance = #7
   }
 }

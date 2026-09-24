@@ -1,4 +1,3 @@
-\version "2.11.63"
 EDUOrganRH = \relative c'' {
   \clef treble
   \key g \major

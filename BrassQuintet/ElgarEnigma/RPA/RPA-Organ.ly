@@ -1,4 +1,3 @@
-\version "2.11.63"
 RPAOrganRH = \relative c' {
   \clef treble
   \key c \minor
@@ -16,7 +15,7 @@ RPAOrganRH = \relative c' {
   <b d>16)-. <a c>-. <a c>8-. <g b>16-. <f a>-. <e g>-. <d f>-. <d f>8-. r8 r4 r8 <c, fis>4 r8
   r4 f'16( d b8-.) r c16( a f8)-. r g16( e c8-.) r d16( b)
   \set Staff.timeSignatureFraction= #'(4 . 4)
-  \scaleDurations #'(3 . 2) {
+  \compressMusic #'(3 . 2) {
     r4 <g'  ees'>8 <ees c'> <aes f'>4( <f  d'>)
     r4 << { f'4( d) } \\ { aes2 } >> <g c>8 <c ees>
     r4 <c ees>8 <c ees g> << { <ees c'>4( d) } \\ { c2 } >>
@@ -121,7 +120,7 @@ RPAOrganLH = \relative c {
   \key c \minor
   \time 12/8
   \set Staff.timeSignatureFraction= #'(4 . 4)
-  \scaleDurations #'(3 . 2) {
+  \compressMusic #'(3 . 2) {
     r2 r4 f~
     g8 r aes4~( aes8 f g4)
     r4 c( ees c)
@@ -135,7 +134,7 @@ RPAOrganLH = \relative c {
   <f c' f>16-. <f c' f>-. <f c' f>8-. <f c'>16-. <f c'>-. <d f b>-. <d f b>-. <d f b>8-. <d b' f'>16-. <d b' f'>-. <e c' e>-. <e c' e>-. <e c' e>8-. <e c' g'>16-. <e c' g'>-. <a c d>-. <a c d>-. <a c d>8-. <a c d>16-. <a c d>-.
   << { <c e>8-. r r r4 } \\ { g4.~ g4  } >> r8 r2.
   \set Staff.timeSignatureFraction= #'(4 . 4)
-  \scaleDurations #'(3 . 2) {
+  \compressMusic #'(3 . 2) {
     r4 <g c ees>8 <g c> <d' f>4( <aes d>)
     r4 <aes d f>( <aes d>) << { c8 ees } \\ { g,4 } >>
     r4 <g c ees g>8 <c ees g> <c ees g>4( <c d>8) r8
@@ -151,7 +150,7 @@ RPAOrganLH = \relative c {
   c4( bes16 aes) g4.~( g8 aes bes) c( bes aes)
   <g ees'>4 r8 r4 r8 r2.
   \set Staff.timeSignatureFraction= #'(4 . 4)
-  \scaleDurations #'(3 . 2) {
+  \compressMusic #'(3 . 2) {
     \voiceOne 
     << 
       {
@@ -257,7 +256,7 @@ RPAOrganPedal = \relative c {
   \key c \minor
   \time 12/8
   \set Staff.timeSignatureFraction= #'(4 . 4)
-  \scaleDurations #'(3 . 2) {
+  \compressMusic #'(3 . 2) {
     r4 ees8-- c-- f4( d)
     r4 f->( d) c8-- ees--
     r4 ees8-- g-- c4-^( d,)
@@ -316,7 +315,7 @@ dynamics = {
   s4.\mf s4\> s8\p s2.
   s1*12/8
   \set Staff.timeSignatureFraction= #'(4 . 4)
-  \scaleDurations #'(3 . 2) {
+  \compressMusic #'(3 . 2) {
     s4 s4\p\< s4.\> s8\!
     s4 s2_\txtCresc s8.\< s16\!
     s4 s8.\< s16\! s4.\f\> s8\!

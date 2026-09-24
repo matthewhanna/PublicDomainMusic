@@ -1,4 +1,3 @@
-\version "2.11.63"
 NimrodOrganRH = \relative c' {
   \clef treble
   \key ees \major

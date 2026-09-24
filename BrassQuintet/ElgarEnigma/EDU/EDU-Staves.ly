@@ -1,4 +1,4 @@
-\version "2.11.63"
+\version "2.10.25"
 
 \include "EDU/EDU-Tpt1.ly"
 \include "EDU/EDU-Tpt2.ly"

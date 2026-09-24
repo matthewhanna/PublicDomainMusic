@@ -1,4 +1,3 @@
-\version "2.11.63"
 EDUTuba = \relative c {
   \clef bass
   \key g \major

@@ -1,4 +1,3 @@
-\version "2.11.63"
 EDUHorn = \relative c'' {
   \clef treble
   \key d \major

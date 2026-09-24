@@ -15,19 +15,19 @@ VespersStaves = {
     <<
       \tag #'tpt \new Staff 
       << 
-        \set Staff.instrumentName = \markup { "Tpt 1 (Bb)" }
+        \set Staff.instrumentName = \markup { "Tpt 1 (C)" }
         \set Staff.midiInstrument = "trumpet"
         #(set-accidental-style 'modern)
         \new Voice = "cue" { \smaller \chantStyle s1*17/4 \chantStyleOff } 
-        \new Voice { \transpose d c \firsttrumpet } 
+        \new Voice { \transpose d bes, \firsttrumpet } 
       >>
       \tag #'tpt \new Staff 
       <<
-        \set Staff.instrumentName = \markup { "Tpt 2 (Bb)" }
+        \set Staff.instrumentName = \markup { "Tpt 2 (C)" }
         \set Staff.midiInstrument = "trumpet"
         #(set-accidental-style 'modern)
         \new Voice = "cue" { \smaller \chantStyle s1*17/4 \chantStyleOff } 
-        \new Voice { \transpose d c \secondtrumpet } 
+        \new Voice { \transpose d bes, \secondtrumpet } 
       >>
       \tag #'horn \new Staff 
       << 

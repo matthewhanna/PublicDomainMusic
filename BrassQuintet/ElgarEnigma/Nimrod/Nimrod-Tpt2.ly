@@ -1,4 +1,3 @@
-\version "2.11.63"
 NimrodTptTwo = \relative c'' {
   \clef treble
   \key ees \major

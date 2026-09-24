@@ -1,4 +1,3 @@
-\version "2.11.63"
 \include "../Globals.ly"
 
 RPATptOne = \relative c' {
@@ -13,7 +12,7 @@ RPATptOne = \relative c' {
   d16-.\mf c-. c8-._\txtDim b16-. a-. g16-. f-. f8-. fis'16-.\mf g-. a-. g-. g8-. f16-._\txtDim e-. d-. c-. c8-. b16-. c-.
   g8 r8 d''16\mp( b g8-.) r a16( f d8-.) r e16( c a8~) a16 r b( g
   \set Staff.timeSignatureFraction= #'(4 . 4)
-  \scaleDurations #'(3 . 2) {
+  \compressMusic #'(3 . 2) {
     c8) r8 ees8\p\< c f4\>( d\!)
     r4 f_\txtCresc( d) c8\< ees\!
     r4 ees8\< g c4\f\>( d,\!)

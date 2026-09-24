@@ -1,4 +1,3 @@
-\version "2.11.63"
 \include "Enigma-Globals.ly"
 \include "RBT/RBT-Staves.ly"
 

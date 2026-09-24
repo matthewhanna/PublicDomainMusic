@@ -18,7 +18,7 @@ chant = \relative c' {
   \bar "|"
 }
 
-\addQuote chantquote { \transpose d bes, \chant }
+\addquote chantquote { \transpose d bes, \chant }
 
 \header {
   title = "Deus in Adiutorium (Vespers of 1610)"

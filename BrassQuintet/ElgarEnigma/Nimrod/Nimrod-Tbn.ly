@@ -1,4 +1,3 @@
-\version "2.11.63"
 NimrodTbn = \relative c' {
   \clef tenor
   \key ees \major

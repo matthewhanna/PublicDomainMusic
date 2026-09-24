@@ -1,4 +1,3 @@
-\version "2.11.63"
 \include "../Globals.ly"
 
 RPATbn = \relative c {
@@ -8,7 +7,7 @@ RPATbn = \relative c {
   \moderato
   \tempo 4. = 63
   \set Staff.timeSignatureFraction= #'(4 . 4)
-  \scaleDurations #'(3 . 2) {
+  \compressMusic #'(3 . 2) {
     r4 ees8--\mf c-- f4( d)
     r4 f->( d) c8-- ees--
     r4 ees8--\< g--\! c4-^( d,)
@@ -33,7 +32,7 @@ RPATbn = \relative c {
   r4 r8 r4 fis16-.\mp g-. a-. g-. g8-. r8 fis16-._\txtDim fis-. fis8 r
   e4\pp( f16 d b4 c16 a f4 g16 e c4 d16 b)
   \set Staff.timeSignatureFraction= #'(4 . 4)
-  \scaleDurations #'(3 . 2) {
+  \compressMusic #'(3 . 2) {
     ees8 r ees\p\< c f4\>( d\!) |
     r4 ees8_\txtDim c f4( d) |
     c'2\pp( c |

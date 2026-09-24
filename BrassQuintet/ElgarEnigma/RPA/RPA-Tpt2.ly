@@ -1,4 +1,3 @@
-\version "2.11.63"
 RPATptTwo = \relative c' {
   \clef treble
   \key c \minor
@@ -16,7 +15,7 @@ RPATptTwo = \relative c' {
   b16-.\mf a-._\txtDim a8-. g16-. f-. e-. d-. d8-. d'16-.\mf d-. c-. c-. c8-. c16-._\txtDim c-. fis,4.\<(
   g'16--\!) f( e d a b d-- c b a e f a-- g f e b c e-- d c b f g)
   \set Staff.timeSignatureFraction= #'(4 . 4)
-  \scaleDurations #'(3 . 2) {
+  \compressMusic #'(3 . 2) {
     ees'8 r c'\p\< g d'4\>( aes)\!
     r4 d4_\txtCresc( f,8) r g c
     r4 c8\< ees ees4\f\>( d)\!

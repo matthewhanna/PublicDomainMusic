@@ -1,4 +1,3 @@
-\version "2.11.63"
 RPAHorn = \relative c'' {
   \clef treble
   \key g \minor
@@ -26,7 +25,7 @@ RPAHorn = \relative c'' {
   e4-.\p r8 fis4-. r8 g4-. r8 r4 r8
   R1*12/8
   \set Staff.timeSignatureFraction= #'(4 . 4)
-  \scaleDurations #'(3 . 2) {
+  \compressMusic #'(3 . 2) {
     r4 bes8\p\< g c4\>( a\!)
     r4 bes8_\txtDim g c4( a)
   }

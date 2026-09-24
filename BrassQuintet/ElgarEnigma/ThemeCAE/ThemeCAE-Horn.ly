@@ -1,4 +1,3 @@
-\version "2.11.63"
 ThemeCAEHorn = \relative c'' {
   \clef treble
   \key d \minor

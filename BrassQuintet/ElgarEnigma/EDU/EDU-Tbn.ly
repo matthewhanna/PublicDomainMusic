@@ -1,4 +1,3 @@
-\version "2.11.63"
 EDUTbn = \relative c {
   \clef tenor
   \key g \major
