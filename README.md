@@ -16,6 +16,8 @@ Public-domain sheet music, written in LilyPond, organized by ensemble.
   - `octavizer/` — utility LilyPond script
 - `MusicTheory/`
   - `Kircher/` — Athanasius Kircher's *Arca Musarithmica* (d. 1680), with Python tooling to generate music from his combinatorial system
+- `Orchestral/`
+  - `SchubertUnfinished/` — Schubert, Symphony No. 8 "Unfinished" (d. 1828)
 - `StaffPaper/` — blank staff paper templates
 
 See [CopyrightedMusic](https://github.com/matthewhanna/CopyrightedMusic) (private) for pieces still under copyright.
